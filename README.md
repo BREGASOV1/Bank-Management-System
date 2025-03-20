@@ -20,8 +20,12 @@ A console-based banking application built in **C++** to manage client accounts, 
    git clone https://github.com/BREGASOV1/Bank-Management-System.git
 Compile the code:
 g++ Bank-Management-System.cpp -o bank_system
+
 Run the program:
+
 Windows:
 bank_system.exe
+
 Linux/macOS:
 ./bank_system
+
