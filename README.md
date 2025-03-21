@@ -23,9 +23,9 @@ g++ Bank-Management-System.cpp -o bank_system
 
 Run the program:
 
-#Windows:
+# Windows
 bank_system.exe
 
-#Linux/macOS:
+# Linux/macOS
 ./bank_system
 
