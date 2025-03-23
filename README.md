@@ -1,6 +1,5 @@
 # Bank-Management-Sysytem-CPP  
 
-```bash
 A professional-grade console application for managing banking operations, built with modern C++ practices. 
 The system supports client management, transaction processing, and user authentication with role-based access control.
 Features
