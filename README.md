@@ -1,8 +1,8 @@
-Banking Management System in C++
+##Banking Management System in C++
 This project implements a basic banking management system in C++ that supports client and user management along with transaction operations.
 The application uses file storage to persist client and user data and offers a simple console-based interface.
 
-Features
+##Features
 Client Management
 
 List Clients: Display all client records with account details.
@@ -15,7 +15,7 @@ Update Client Info: Modify client details including PIN, name, phone, and balanc
 
 Find Client: Search for a client using their account number.
 
-Transaction Management
+##Transaction Management
 
 Deposit: Allow deposits to client accounts.
 
@@ -31,30 +31,27 @@ Manage Users: Add, update, delete, and search for users.
 
 Permissions: Fine-grained access control to restrict user actions (e.g., adding clients, processing transactions).
 
-File-Based Storage
+##File-Based Storage
 
 Client data is stored in Clients.txt and user data in Users.txt, with each record formatted in a specific delimiter-separated format.
 
-Prerequisites
+##Prerequisites
 Compiler: A C++ compiler that supports C++11 or later (e.g., GCC, Clang, MSVC).
 
-Standard Library: The code relies on standard C++ libraries such as <iostream>, <vector>, <fstream>, <string>, etc.
+##Standard Library:
+The code relies on standard C++ libraries such as <iostream>, <vector>, <fstream>, <string>, etc.
 
-Installation & Compilation
+##Installation & Compilation
 Clone or Download the Repository:
 
 
-git clone https://github.com/yourusername/BankingManagementSystem.git
+git clone https://github.com/BREGASOV1/BankingManagementSystem.git
 cd BankingManagementSystem
 Compile the Code:
 
-Use your preferred compiler. For example, if using GCC:
-
-g++ -std=c++11 main.cpp -o BankingSystem
-Run the Application:
-
-
+#Run the Application:
 ./BankingSystem
+
 Usage
 Login:
 On startup, you will be prompted with the login screen. Use valid credentials to access the system.
